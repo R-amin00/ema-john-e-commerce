@@ -13,7 +13,7 @@ const Product = (props) => {
                     <h4 className='product-name'>{name}</h4>
                     <p className='details'>Price: ${price}</p>
                     <p className='details'><small>Manufacturer: {seller}</small></p>
-                    <p className='details'><small>Ratig: {ratings}</small></p>
+                    <p className='details'><small>Rating: {ratings}</small></p>
                 </div>
                 <button className='btn-cart'>Add to Card</button>
             </div>
